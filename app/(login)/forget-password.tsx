@@ -1,12 +1,14 @@
-import React, { memo, useState } from 'react';
+import { memo, useState } from 'react';
 import { Text, StyleSheet, TouchableOpacity } from 'react-native';
-import Background from '@/components/login/Background';
-import BackButton from '@/components/login/BackButton';
-import Logo from '@/components/login/Logo';
-import Header from '@/components/login/Header';
-import TextInput from '@/components/login/TextInput';
-import Button from '@/components/login/Button';
-import { Link } from 'expo-router';
+import {
+  Background,
+  BackButton,
+  Logo,
+  Header,
+  TextInput,
+  Button,
+  Link,
+} from '../../components';
 
 const ForgotPasswordScreen = () => {
   const [email, setEmail] = useState({ value: '', error: '' });
@@ -34,9 +36,7 @@ const ForgotPasswordScreen = () => {
       />
 
       <Link href="/login" asChild>
-        <Button style={styles.button}>
-          Send Reset Instructions
-        </Button>
+        <Button style={styles.button}>Send Reset Instructions</Button>
       </Link>
 
       <Link href="/login" asChild>

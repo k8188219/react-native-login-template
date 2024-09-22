@@ -1,10 +1,12 @@
-import React, { memo } from 'react';
-import Background from '@/components/login/Background';
-import Logo from '@/components/login/Logo';
-import Header from '@/components/login/Header';
-import Paragraph from '@/components/login/Paragraph';
-import { Link } from 'expo-router';
-import Button from '@/components/login/Button';
+import { memo } from 'react';
+import {
+  Background,
+  Logo,
+  Header,
+  Paragraph,
+  Button,
+  Link,
+} from '../../components';
 
 const Dashboard = () => (
   <Background>
@@ -15,9 +17,7 @@ const Dashboard = () => (
       editing this project.
     </Paragraph>
     <Link href="/greeting" asChild>
-      <Button>
-        Logout
-      </Button>
+      <Button>Logout</Button>
     </Link>
   </Background>
 );

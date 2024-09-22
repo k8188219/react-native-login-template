@@ -1,12 +1,14 @@
-import React, { memo, useState } from 'react';
+import { memo, useState } from 'react';
 import { TouchableOpacity, StyleSheet, Text, View } from 'react-native';
-import Background from '@/components/login/Background';
-import Logo from '@/components/login/Logo';
-import Header from '@/components/login/Header';
-import Button from '@/components/login/Button';
-import TextInput from '@/components/login/TextInput';
-import BackButton from '@/components/login/BackButton';
-import { Link } from 'expo-router';
+import {
+  BackButton,
+  Background,
+  Logo,
+  Header,
+  TextInput,
+  Button,
+  Link,
+} from '../../components';
 
 const LoginScreen = () => {
   const [email, setEmail] = useState({ value: '', error: '' });
@@ -49,11 +51,9 @@ const LoginScreen = () => {
           </TouchableOpacity>
         </Link>
       </View>
-      
+
       <Link href="/dashboard" asChild>
-        <Button>
-          Login
-        </Button>
+        <Button>Login</Button>
       </Link>
 
       <View style={styles.row}>

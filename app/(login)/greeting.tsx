@@ -1,11 +1,13 @@
-import React, { memo } from 'react';
-import Background from '@/components/login/Background';
-import Logo from '@/components/login/Logo';
-import Header from '@/components/login/Header';
-import Paragraph from '@/components/login/Paragraph';
-import { Link } from 'expo-router';
+import { memo } from 'react';
 import { StyleSheet } from 'react-native';
-import Button from '@/components/login/Button';
+import {
+  Background,
+  Logo,
+  Header,
+  Paragraph,
+  Button,
+  Link,
+} from '../../components';
 
 const HomeScreen = () => (
   <Background>
@@ -41,7 +43,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 15,
     lineHeight: 26,
-    color: '#6750a4'
+    color: '#6750a4',
   },
 });
 
