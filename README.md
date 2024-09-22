@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# React Native Login Template
+
+[![supports iOS](https://img.shields.io/badge/iOS-999999.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff)](https://github.com/expo/expo)
+[![supports Android](https://img.shields.io/badge/Android-A4C639.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff)](https://github.com/expo/expo)
+[![supports web](https://img.shields.io/badge/Web-4285F4.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff)](https://github.com/expo/expo)
+
+
+Provide login page templates and components.
+
+Code in this repo is modified from [callstack/react-native-paper-login-template](https://github.com/callstack/react-native-paper-login-template).
+
+Updated to use `expo-router` and remove dependency `react-native-paper`.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 🚀 Try it out 
 
-1. Install dependencies
+https://snack.expo.dev/@k8188219/login-template
 
-   ```bash
-   npm install
-   ```
+[![Develop in Expo Snack](https://img.shields.io/badge/Snack-000.svg?style=for-the-badge&logo=EXPO&labelColor=FFF&logoColor=000)](https://snack.expo.dev/@k8188219/login-template)
 
-2. Start the app
+![homescreen](https://raw.githubusercontent.com/k8188219/react-native-login-template/main/preview/homescreen.jpg)
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Features
 
-## Get a fresh project
+- Minimum dependencies
+- Complete source code in React Native
+- Portable
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+## How to use?
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Create your app with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Learn more
+2. Copy files from this repository `app` `assets` `components`.
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3. Run your app follow create-expo-app instruction.
